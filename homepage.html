@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Test HomePage Qwant</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+
+      ReactDOM.render(
+        <div class="col-12">
+            <nav class="col-1 nav_bar">
+                <ul>
+                    <li id="logo_qwant" class="col-12"></li>
+                    <li id="logo_all" class="col-12"><div class="icon_nav"></div>Tous</li>
+                    <li id="logo_web" class="col-12"><div class="icon_nav"></div>Web</li>
+                    <li id="logo_news" class="col-12"><div class="icon_nav"></div>Actualités</li>
+                    <li id="logo_social" class="col-12"><div class="icon_nav"></div>Social</li>
+                    <li id="logo_picture" class="col-12"><div class="icon_nav"></div>Images</li>
+                    <li id="logo_Vidéos" class="col-12"><div class="icon_nav"></div>Vidéos</li>
+                    <li id="logo_shopping" class="col-12"><div class="icon_nav"></div>Shopping</li>
+                    <li id="logo_music" class="col-12"><div class="icon_nav"></div>Musique</li>
+                </ul>
+            </nav>
+            <div class="col-11 home_page">
+                <div id="logo_searchbar">
+                    <div class="logo"></div>
+                    <div id="searchbar">
+                        <form action="" class="formulaire">
+                            <input class="champ" type="text" value="Recherchez un artiste, un titre ..."/>
+                            <input class="bouton" type="button" value="" />             
+                        </form>
+                    </div>
+                </div>
+
+                <div id="news">
+                    <h2>Actualité musicale</h2> 
+                    <div class="underline"></div>
+                    <div class="col-12">
+                        <div class="col-4">
+                            <div class="picture"></div>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce volutpat ligula eget ligula volutpat pulvinar.</div>
+                            <div class="underline_news"></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="picture"></div>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce volutpat ligula eget ligula volutpat pulvinar</div>
+                            <div class="underline_news"></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="big_picture"></div>
+                            <div class="underline_news"></div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-4">
+                            <div class="little_picture"></div>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce volutpat ligula eget ligula volutpat pulvinar</div>
+                            <div class="underline_news_little_news"></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="little_picture"></div>
+                            <div class="text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce volutpat ligula eget ligula volutpat pulvinar</div>
+                            <div class="underline_news_little_news"></div>
+                        </div>
+                        <div class="col-4">
+                            <div class="text_only">Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce volutpat ligula eget ligula volutpat pulvinar</div>
+                            <div class="underline_news_little_news"></div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div id="top">
+                    <h2>Classement</h2>        
+                    <div class="underline"></div>
+                    <div class="col-12">
+                        <div class="col-4">
+                            <h3>Top Titres France</h3>
+                            <ul>
+                                <li><span class="text_top">1</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">2</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">3</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">4</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">5</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <h3>Top Titres France</h3>
+                            <ul>
+                                <li><span class="text_top">1</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">2</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">3</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">4</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">5</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <h3>Top Titres France</h3>
+                            <ul>
+                                <li><span class="text_top">1</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">2</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">3</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">4</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                                <li><span class="text_top">5</span><div class="picture_top"></div><span class="text_description">Lorem ipsum</span></li>
+                            </ul>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>,
+        document.getElementById('root')
+      );
+
+    </script>
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+      To set up a production-ready React build environment, follow these instructions:
+      * https://reactjs.org/docs/add-react-to-a-new-app.html
+      * https://reactjs.org/docs/add-react-to-an-existing-app.html
+
+      You can also use React without JSX, in which case you can remove Babel:
+      * https://reactjs.org/docs/react-without-jsx.html
+      * https://reactjs.org/docs/cdn-links.html
+    -->
+  </body>
+</html>
